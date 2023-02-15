@@ -70,7 +70,7 @@ const DrawerHeader = styled("div")(({ theme }) => ({
 
 export default function PersistentDrawerLeft(props) {
   const theme = useTheme();
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = React.useState(true);
 
   const handleDrawerOpen = () => {
     setOpen(true);
@@ -148,7 +148,7 @@ export default function PersistentDrawerLeft(props) {
           ))}
         </List>
       </Drawer>
-      <Main open={open} p={2}>
+      <Main open={open}>
         <DrawerHeader />
         {props.children}
       </Main>

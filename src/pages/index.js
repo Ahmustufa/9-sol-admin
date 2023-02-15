@@ -15,7 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.svg" />
       </Head>
       <Div>
-        <Text variant="h2">hmmm, How did you get here?</Text>
+        <Text variant="h2">hmm, How did you get here?</Text>
       </Div>
     </>
   );
